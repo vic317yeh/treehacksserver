@@ -1,14 +1,13 @@
 {
   "name": "treehacks",
   "version": "1.0.0",
-  "description": "The official website for the Engineering Society of University of California, Los Angeles",
+  "description": "Yo treehacks!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "esuc",
-    "ucla"
+    "treehacks"
   ],
   "author": "Vic Yeh <vic.yeh@ucla.edu> (http://vicyeh.me/)",
   "license": "MIT",
