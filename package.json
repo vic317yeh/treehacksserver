@@ -1,5 +1,5 @@
 {
-  "name": "esuc",
+  "name": "treehacks",
   "version": "1.0.0",
   "description": "The official website for the Engineering Society of University of California, Los Angeles",
   "main": "server.js",
@@ -23,7 +23,7 @@
     "sendgrid": "~1.5.0"
   },
   "repository": {
-    "type": "git", 
-    "url": "https://github.com/ESUC/esuc-official-website.git"
+    "type": "git" ,
+	"url":"https://github.com/vic317yeh/treehacksserver.git"
   }
 }
