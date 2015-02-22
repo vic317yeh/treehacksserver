@@ -5,6 +5,7 @@ var port     = process.env.PORT || 8080;
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+var sendgrid  = require('sendgrid')('esuc-ucla', 'Uclaesuc2015');
 
 
 // use ===============================================================
@@ -20,7 +21,7 @@ app.set('view engine', 'ejs');
 
 
 // routes =============================================================
-require('./routes/index')(app);
+require('./routes/index')(app,sendgrid);
 
 
 // launch ======================================================================
